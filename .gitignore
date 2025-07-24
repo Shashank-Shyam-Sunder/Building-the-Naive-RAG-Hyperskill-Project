@@ -1,0 +1,46 @@
+# ------------------------------
+# Standard Python ignores
+# ------------------------------
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.env.*
+
+# IDEs (PyCharm)
+.idea/
+*.swp
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Project-specific ignores
+# ------------------------------
+# Ignore everything in root and subfolders
+*
+
+# Allow only specific files
+!Building the Naive RAG/
+!Building the Naive RAG/task/
+!Building the Naive RAG/task/stage1_load.py
+!Building the Naive RAG/task/stage2_split.py
+!Building the Naive RAG/task/stage3_embed.py
+!Building the Naive RAG/task/stage4_retriever.py
+!Building the Naive RAG/task/stage5_generate.py
+
+
+# Allow specific files in root
+# !requirements.txt
+!README.md
+!requirements_project.txt
+!.gitignore
