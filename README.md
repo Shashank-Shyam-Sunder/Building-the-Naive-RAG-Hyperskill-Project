@@ -90,3 +90,7 @@ Run each stage file to see the progression of the RAG system:
 5. Finally, use stage5_generate.py to generate answers to questions about the movie
 
 Each stage builds upon the previous ones, demonstrating the complete RAG pipeline from data loading to answer generation.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
